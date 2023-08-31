@@ -1,0 +1,167 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Voila - End to end",
+    "line": 2,
+    "id": "voila---end-to-end",
+    "tags": [
+      {
+        "name": "@checkout",
+        "line": 1
+      }
+    ],
+    "uri": "checkout.feature",
+    "elements": [
+      {
+        "id": "voila---end-to-end;successful-checkout",
+        "keyword": "Scenario",
+        "line": 14,
+        "name": "Successful Checkout",
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in Voila homepage",
+            "result": {
+              "status": "passed",
+              "duration": 41037000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add product to cart",
+            "result": {
+              "status": "passed",
+              "duration": 44928000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I go to cart page",
+            "result": {
+              "status": "passed",
+              "duration": 11163000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I provide my shipping address",
+            "result": {
+              "status": "passed",
+              "duration": 1591000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I choose shipping courier",
+            "result": {
+              "status": "passed",
+              "duration": 8991000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I create order with \"VA\" payment",
+            "result": {
+              "status": "passed",
+              "duration": 1710000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "voila---end-to-end;successful-checkout",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Successful Checkout",
+        "tags": [
+          {
+            "name": "@checkout",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I am in Voila homepage",
+            "result": {
+              "status": "passed",
+              "duration": 37542000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I add product to cart",
+            "result": {
+              "status": "passed",
+              "duration": 32690000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I go to cart page",
+            "result": {
+              "status": "passed",
+              "duration": 5916000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "I provide my shipping address",
+            "result": {
+              "status": "passed",
+              "duration": 4715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I choose shipping courier",
+            "result": {
+              "status": "passed",
+              "duration": 14500000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 10,
+            "name": "I create order with \"Bank Transfer\" payment",
+            "result": {
+              "status": "passed",
+              "duration": 3922000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

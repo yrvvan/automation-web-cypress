@@ -1,0 +1,6 @@
+{
+    "productTitle": "h1[class='tt-title no-translate']",
+    "sizeChoosen": "a[data-value='L']",
+    "addToCart": "button[data-type='addtocart']",
+    "seeCart": "div[class='tt-modal-addtocart mobile'] a[class='btn btn-border ttmodalbtn ttmodalbtn']"
+  }

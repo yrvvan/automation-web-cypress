@@ -1,0 +1,9 @@
+{
+    "checkoutButton": "#btn-checkout",
+    "continueToShipping": "button[type='submit']",
+    "buyerShippingEmail": "bdo[dir='ltr']",
+    "paymentPageTitle": "#step-section-primary-header",
+    "paymentVA": "label[for='basic-Payments via Midtrans']",
+    "paymentBankTransfer": "#basic-customManualPayment-61481287864",
+    "btnCreateOrder": "div[class='oQEAZ WD4IV'] button[type='submit']"
+  }
