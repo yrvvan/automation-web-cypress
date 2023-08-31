@@ -4,13 +4,8 @@
     "description": "Automation WEBUI",
     "main": "index.js",
     "scripts": {
-        "clean-reports": "rm -rf cypress/reports/results/*.json cypress/reports/features cypress/reports/index.html cypress/reports/* cypress/screenshots/* cypress/videos/*",
         "cypress": "npm run clean-reports & ./node_modules/.bin/cypress-tags run --spec \"cypress/integration/*.feature\"",
-        "cypress-ui": "./node_modules/.bin/cypress open",
-        "reports": "node cypress/cypress_report.js",
-        "open-reports": "open 'cypress/reports/index.html'",
-        "combine-reports": "mkdir cypress/reports/mochareports && mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
-        "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports"
+        "cypress-ui": "./node_modules/.bin/cypress open"
     },
     "author": "Irwan Rosyadi",
     "license": "ISC",
