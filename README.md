@@ -1,6 +1,6 @@
 
 ![cypress](https://img.shields.io/badge/AT--WEBUI-Cypress-yellow.svg) ![coverage](https://img.shields.io/badge/coverage-100%25-brightgreen.svg)
-# automation-web-cypress-cucumber
+# cypress-automation-web
 
 ### Prerequisites:
 
