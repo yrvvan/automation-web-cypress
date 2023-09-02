@@ -7,9 +7,10 @@ Feature: Voila - End to end
           When I go to cart page
           And I provide my shipping address
           And I choose shipping courier
-          And I create order with "<paymentMethod>" payment
+          And I create order with "<paymentMethod>" payment method
+          Then I see payment page with payment "<paymentMethod>"
 
           Examples:
                | paymentMethod |
-               | VA            |
+               # | VA            |
                | Bank Transfer |

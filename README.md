@@ -22,14 +22,14 @@ $ npm install
         │  ├── fixtures
         │  ├── integration
         │  │    ├── common
-        │  │    ├── feature
+        │  │    └── feature
         │  ├── plugins
         │  ├── screenshots
         │  ├── support
-        │  │    ├── object
+        │  │    └── object
         │  ├── support
         ├── .env
-        └── cypress.json
+        ├── cypress.json
         └── package.json
 
 ### Foldering and Naming Convention
@@ -62,4 +62,3 @@ $ npm run cypress -- -e TAGS='@tagNameScenario'     | to run test with specific 
 $ npm run cypress -- -e TAGS='not @skip'            | to exclude @skip tag
 $ npm run cypress -- -e TAGS='' --browser chrome    | to run all tests with launch browser
 ```
-

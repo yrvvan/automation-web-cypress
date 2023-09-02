@@ -15,7 +15,7 @@
       {
         "id": "voila---end-to-end;successful-checkout",
         "keyword": "Scenario",
-        "line": 14,
+        "line": 16,
         "name": "Successful Checkout",
         "tags": [
           {
@@ -32,7 +32,7 @@
             "name": "I am in Voila homepage",
             "result": {
               "status": "passed",
-              "duration": 41037000000
+              "duration": 57825000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I add product to cart",
             "result": {
               "status": "passed",
-              "duration": 44928000000
+              "duration": 43495000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "I go to cart page",
             "result": {
               "status": "passed",
-              "duration": 11163000000
+              "duration": 14268000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I provide my shipping address",
             "result": {
               "status": "passed",
-              "duration": 1591000000
+              "duration": 2363000000
             }
           },
           {
@@ -72,92 +72,28 @@
             "name": "I choose shipping courier",
             "result": {
               "status": "passed",
-              "duration": 8991000000
+              "duration": 10233000000
             }
           },
           {
             "arguments": [],
             "keyword": "And ",
             "line": 10,
-            "name": "I create order with \"VA\" payment",
+            "name": "I create order with \"Bank Transfer\" payment method",
             "result": {
               "status": "passed",
-              "duration": 1710000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "voila---end-to-end;successful-checkout",
-        "keyword": "Scenario",
-        "line": 15,
-        "name": "Successful Checkout",
-        "tags": [
-          {
-            "name": "@checkout",
-            "line": 1
-          }
-        ],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I am in Voila homepage",
-            "result": {
-              "status": "passed",
-              "duration": 37542000000
+              "duration": 2830000000
             }
           },
           {
             "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I add product to cart",
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I see payment page with payment \"Bank Transfer\"",
             "result": {
-              "status": "passed",
-              "duration": 32690000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I go to cart page",
-            "result": {
-              "status": "passed",
-              "duration": 5916000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 8,
-            "name": "I provide my shipping address",
-            "result": {
-              "status": "passed",
-              "duration": 4715000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I choose shipping courier",
-            "result": {
-              "status": "passed",
-              "duration": 14500000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 10,
-            "name": "I create order with \"Bank Transfer\" payment",
-            "result": {
-              "status": "passed",
-              "duration": 3922000000
+              "status": "failed",
+              "duration": 16103000000,
+              "error_message": "AssertionError: Timed out retrying after 15000ms: Expected to find content: 'Semua metode pembayaran' but never did.\n    at Context.eval (https://voila.id/__cypress/tests?p=cypress/integration/feature/checkout.feature:63:42)\n    at Context.resolveAndRunStepDefinition (https://voila.id/__cypress/tests?p=cypress/integration/feature/checkout.feature:10503:29)\n    at Context.eval (https://voila.id/__cypress/tests?p=cypress/integration/feature/checkout.feature:9824:35)"
             }
           }
         ]

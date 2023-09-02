@@ -1,4 +1,4 @@
 {
-  "sliderHomeSection": "div[data-sectionname='index_revolution']",
-  "userHeaderIdentifier": "i[class='tt-account-name']"
+  "imgSliderHomeSection": "div[data-sectionname='index_revolution']",
+  "txtUserHeaderIdentifier": "i[class='tt-account-name']"
 }

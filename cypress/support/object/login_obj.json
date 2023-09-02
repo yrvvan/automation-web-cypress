@@ -1,5 +1,5 @@
 {
-  "email": "#loginInputName",
-  "password": "#loginInputPassword",
-  "loginButton": "#btn-login"
+  "inputEmail": "#loginInputName",
+  "inputPassword": "#loginInputPassword",
+  "btnLoginButton": "#btn-login"
 }

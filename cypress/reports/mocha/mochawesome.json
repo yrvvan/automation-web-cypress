@@ -1,0 +1,111 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 0,
+    "pending": 0,
+    "failures": 1,
+    "start": "2023-09-02T04:14:38.638Z",
+    "end": "2023-09-02T04:17:12.364Z",
+    "duration": 153726,
+    "testsRegistered": 1,
+    "passPercent": 0,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "286c3f83-a206-4596-b7d3-efcf3bffcf5b",
+      "title": "",
+      "fullFile": "cypress/integration/feature/checkout.feature",
+      "file": "cypress/integration/feature/checkout.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "b14ade5a-6da9-4724-90c2-edc5b2f40e87",
+          "title": "Voila - End to end",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Successful Checkout (example #1)",
+              "fullTitle": "Voila - End to end Successful Checkout (example #1)",
+              "timedOut": null,
+              "duration": 146663,
+              "state": "failed",
+              "speed": null,
+              "pass": false,
+              "fail": true,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach((step) =>\n      stepTest.call(this, state, step, rowData)\n    )\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {
+                "message": "AssertionError: Timed out retrying after 15000ms: Expected to find content: 'Semua metode pembayaran' but never did.",
+                "estack": "AssertionError: Timed out retrying after 15000ms: Expected to find content: 'Semua metode pembayaran' but never did.\n    at Context.eval (https://voila.id/__cypress/tests?p=cypress/integration/feature/checkout.feature:63:42)\n    at Context.resolveAndRunStepDefinition (https://voila.id/__cypress/tests?p=cypress/integration/feature/checkout.feature:10503:29)\n    at Context.eval (https://voila.id/__cypress/tests?p=cypress/integration/feature/checkout.feature:9824:35)",
+                "diff": null
+              },
+              "uuid": "9633bba3-bea8-4f51-8d5f-bde0f16995a1",
+              "parentUUID": "b14ade5a-6da9-4724-90c2-edc5b2f40e87",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [],
+          "failures": [
+            "9633bba3-bea8-4f51-8d5f-bde0f16995a1"
+          ],
+          "pending": [],
+          "skipped": [],
+          "duration": 146663,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}

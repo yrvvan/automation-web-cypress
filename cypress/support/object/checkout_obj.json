@@ -1,9 +1,11 @@
 {
-    "checkoutButton": "#btn-checkout",
-    "continueToShipping": "button[type='submit']",
-    "buyerShippingEmail": "bdo[dir='ltr']",
-    "paymentPageTitle": "#step-section-primary-header",
-    "paymentVA": "label[for='basic-Payments via Midtrans']",
-    "paymentBankTransfer": "#basic-customManualPayment-61481287864",
-    "btnCreateOrder": "div[class='oQEAZ WD4IV'] button[type='submit']"
-  }
+  "btnCheckoutButton": "#btn-checkout",
+  "btnContinueToShipping": "button[type='submit']",
+  "txtBuyerShippingEmail": "bdo[dir='ltr']",
+  "txtPaymentPageTitle": "#step-section-primary-header",
+  "txtPaymentVA": "label[for='basic-Payments via Midtrans']",
+  "txtPaymentBankTransfer": "#basic-customManualPayment-61481287864",
+  "btnCreateOrder": "div[class='oQEAZ WD4IV'] button[type='submit']",
+  "txtPostOrderHeader": "#main-header",
+  "txtPostOrderInfo": "#optin-confirmed-success-true"
+}

@@ -30,10 +30,10 @@ const homeObj = require('../support/object/home_obj.json')
 beforeEach(() => {
   cy.clearCookies();
   cy.visit(`${Cypress.env('WEBSITE_URL')}/account/login`, {failOnStatusCode: false, chromeWebSecurity: false});
-  cy.get(loginObj.email).click();
-  cy.get(loginObj.email).type(Cypress.env('EMAIL'));
-  cy.get(loginObj.password).click();
-  cy.get(loginObj.password).type(Cypress.env('PASSWORD'));
-  cy.get(loginObj.loginButton).click();
-  cy.get(homeObj.sliderHomeSection).should('be.visible');
+  cy.get(loginObj.inputEmail).click();
+  cy.get(loginObj.inputEmail).type(Cypress.env('EMAIL'));
+  cy.get(loginObj.inputPassword).click();
+  cy.get(loginObj.inputPassword).type(Cypress.env('PASSWORD'));
+  cy.get(loginObj.btnLoginButton).click();
+  cy.get(homeObj.imgSliderHomeSection).should('be.visible');
 });
